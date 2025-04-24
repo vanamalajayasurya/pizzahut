@@ -1,0 +1,127 @@
+* {
+    margin: 13px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-container {
+    border: 5px solid red;
+    height: 800px;
+    border-radius: 30px;
+    margin: auto;
+    padding: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+a {
+    margin: 15px;
+    text-decoration: none;
+    font-size: 29px;
+    color: black;
+}
+
+.logo {
+    width: 70px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.main {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h4 {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    position: relative;
+    top: 26px;
+    left: -8px;
+}
+
+ .pizza-titles h1  {
+
+    font-size: 43px;
+    margin: 8px 0;
+    font-size: 37px;
+    margin-left: -9px;
+    
+}
+
+.pizza-info p {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 16px;
+    margin-left: -5px;
+    margin-top: -30px;
+    position: relative;
+    top: 22px;
+    text-shadow: none;
+    
+}
+
+.Pizzamenu {
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.Pizzamenu img {
+    width: 80px;
+    height: 70px;
+    box-shadow: 10px 5px 5px rgba(255, 255, 255, 0.5);
+    margin-top: 30px;
+    border-bottom: 7px solid white;
+    border-radius: 10px;
+    cursor: pointer; 
+
+    
+}
+
+.Pizzamain img {
+    width: 485px;
+    max-width: 100%;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: auto;
+    margin-left: 862px;
+    margin-top: -519px;;
+    margin-bottom: -168px;
+    cursor: pointer;
+}
+#pizza1,#pizza2,#pizza3{
+    display: none;
+}
+#gardenlover,#mushroomflex,#chickenfanboy{
+    display: none;
+    
+}
+#gardenloverId,#mushroomflexId,#chickenfanboyId{
+    display: none;
+}
+.main-container * {
+    font-family: Arial, sans-serif;
+    width: 593px;
+    margin-right: auto;
+    text-shadow: 4px 4px 10px grey;
+}
+
+
